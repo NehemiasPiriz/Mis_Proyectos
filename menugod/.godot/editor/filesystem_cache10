@@ -1,0 +1,36 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1792085841
+....jpg::CompressedTexture2D::931422339128267611::1791043784::1791059040::1::::<><><>0<>0<>095f89b32e03fb9b4af98ac555261d96<>res://.godot/imported/....jpg-3478595c4264359b4b31a737cf7db6a2.ctex::
+434e7950-25fc-4ded-a31a-0e01f1851c57.png::CompressedTexture2D::7012106900437179404::1791849430::1791849433::1::::<><><>0<>0<>a3a9789956cf0495589afe506418a3b5<>res://.godot/imported/434e7950-25fc-4ded-a31a-0e01f1851c57.png-38173c80d1b9938ad5f355cb8b83b614.ctex::
+502b0f93-11f6-4053-a050-3914d7d55012.png::CompressedTexture2D::7677182386692893216::1791840241::1791840243::1::::<><><>0<>0<>0fda4540a350004c6d3e4a62e530c7a7<>res://.godot/imported/502b0f93-11f6-4053-a050-3914d7d55012.png-87e1167d0b5b0cc4c3779fed10bf8723.ctex::
+icon.svg::CompressedTexture2D::7964846632589183622::1790192890::1790192895::1::::<><><>0<>0<>f5011dd0c09512be4f5fdf223f23f01c<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+menu.jpg::CompressedTexture2D::1640752395947630713::1791042903::1791059040::1::::<><><>0<>0<>14b02406261f19c5a760f413a74d6ee5<>res://.godot/imported/menu.jpg-13dfa40294da553bb6f2cd46f717b674.ctex::
+::res://assetmen/::1791057820
+....jpg::CompressedTexture2D::7975191589009012811::1791043824::1791043824::1::::<><><>0<>0<>593316f4249a4a27a75d353ac1723a4a<>res://.godot/imported/....jpg-b2d047cd6f0b525b4287bb56ac041cb6.ctex::
+menu.jpg::CompressedTexture2D::949171501303066393::1791042942::1791042942::1::::<><><>0<>0<>df80c3f228337aa592de2132a3682cd8<>res://.godot/imported/menu.jpg-dc5ee050b4aa5909c3d063d5b0fbb951.ctex::
+::res://escenas/::1792085562
+escenas.tscn::PackedScene::6077846715522940689::1791836706::0::1::::<><><>0<>0<><>::uid://d1euf2atmyfvi::::res://escenas/Mapa.tscn<>uid://b8tw572dq3tto::::res://escenas/main_menú.tscn
+main_menú.tscn::PackedScene::4743266771349049184::1792085562::0::1::::<><><>0<>0<><>::uid://dcfxkr8dpd1ny::::res://menus/main_menú.gd<>uid://3mym2sicaujl::::res://menus/custom_button.tscn<>uid://c65ym136ub48o::::res://434e7950-25fc-4ded-a31a-0e01f1851c57.png<>uid://dhm5cpsbthio3::::res://502b0f93-11f6-4053-a050-3914d7d55012.png
+Mapa.tscn::PackedScene::8993654184519950790::1791051380::0::1::::<><><>0<>0<><>::uid://dykdt1bwkkwvg::::res://mapassets/medieval fondo.png<>uid://cb7cyvb4qed04::::res://mapassets/piso.jpg<>uid://do5l8cnv7cyom::::res://mapassets/sprite1.png<>uid://csh0urgbxjx53::::res://mapassets/sprite3.png<>uid://dvyhgcrem0oah::::res://mapassets/tronco1.png<>uid://bcyixt0lc2db8::::res://mapassets/arbol1.png<>uid://b6rrkkhhwh3vp::::res://mapassets/roca2.png<>uid://d31etc1vdim5v::::res://mapassets/roca4.png<>uid://dhkhpu0xhr38w::::res://mapassets/roca1.png<>uid://3huf7gnluxs3::::res://mapassets/roca7.png<>uid://bahqrgnh2cokx::::res://mapassets/roca6.png
+opciones.tscn::PackedScene::2436669248481024138::1791056693::0::1::::<><><>0<>0<><>::uid://c6e4t6f3bt22::::res://scripts/opciones.gd<>uid://dlviif1aa2aox::::res://assetmen/....jpg<>uid://3mym2sicaujl::::res://menus/custom_button.tscn
+::res://menus/::1791838380
+custom_button.gd::GDScript::1336438722179872413::1791827113::0::1::::custom_button<>Button<><>0<>0<><>::
+custom_button.tscn::PackedScene::1991540238569990829::1790384449::0::1::::<><><>0<>0<><>::uid://tbm7k1m58mw0::::res://menus/custom_button.gd
+main_menú.gd::GDScript::7311376919930342370::1791838380::0::1::::main_menú<>Control<><>0<>0<><>::
+::res://scripts/::1791827640
+opciones.gd::GDScript::204669099743472037::1791827640::0::1::::<>Control<><>0<>0<><>::
+::res://sprite mapa/::1791826736
+1TT1oC (rocas).png::CompressedTexture2D::1208047086505063267::1791051380::1791826736::1::::<><><>0<>0<>f7fc19be1ffa220143f311ab16fb7343<>res://.godot/imported/1TT1oC (rocas).png-00c9a4f985124a89917588ac11c0c260.ctex::
+arbol1.png::CompressedTexture2D::2576871283335834983::1791051380::1791826735::1::::<><><>0<>0<>ce7cdc0cee66ca044070c3dbfe30bf03<>res://.godot/imported/arbol1.png-46610335e99f0de08180a103ee5863ac.ctex::
+medieval fondo.png::CompressedTexture2D::8864655525160440600::1791051380::1791826736::1::::<><><>0<>0<>5fb5b46ed58e7be9a5936edd7ddc1ae3<>res://.godot/imported/medieval fondo.png-b86c30d02d7e0b0ad85ab84f8f339ff6.ctex::
+piso.jpg::CompressedTexture2D::4909255698067725435::1791051380::1791826735::1::::<><><>0<>0<>f08c6629672c9395ca9f0991f2105ca7<>res://.godot/imported/piso.jpg-d52d607e1ac140452fb07bc73fd73b84.ctex::
+roca1.png::CompressedTexture2D::7671680630086250368::1791051380::1791826735::1::::<><><>0<>0<>6a51ac01d35a7bbe898f2f3f77c6dcdd<>res://.godot/imported/roca1.png-138eb7063c8b1cd264f3e7ff7528c3a3.ctex::
+roca2.png::CompressedTexture2D::4598419841502087937::1791051380::1791826735::1::::<><><>0<>0<>f14663255465a0f8fa3c618e827d0485<>res://.godot/imported/roca2.png-019a4ee6d3f4a77c2f1310ed95397e6e.ctex::
+roca3.png::CompressedTexture2D::4494468938490764676::1791051380::1791826735::1::::<><><>0<>0<>0ce821960a6053a4fd8b5847cbae6032<>res://.godot/imported/roca3.png-f8b40a0005ec6c223b2b0b6738077258.ctex::
+roca4.png::CompressedTexture2D::9178500438775120337::1791051380::1791826735::1::::<><><>0<>0<>2933a9737126a03ec8602553bd9c5b0c<>res://.godot/imported/roca4.png-ac9be1761759e3f1126a029a6b9593c5.ctex::
+roca5.png::CompressedTexture2D::3020745324111015095::1791051380::1791826735::1::::<><><>0<>0<>67f11f5b2e36464d6328231058eed729<>res://.godot/imported/roca5.png-5a4471671025484f23e4ec2315bf0c0f.ctex::
+roca6.png::CompressedTexture2D::2401873493928948611::1791051380::1791826735::1::::<><><>0<>0<>9690130511c97a05d061defc44dc6dc8<>res://.godot/imported/roca6.png-709608f491f346a96a8e5be1d7f5e0dd.ctex::
+roca7.png::CompressedTexture2D::1980963225590383564::1791051380::1791826735::1::::<><><>0<>0<>c7a2dc247bb1f1e1c4131b2998f8d317<>res://.godot/imported/roca7.png-1b4833ae2ce1a729656a598c9f1937ad.ctex::
+sprite1.png::CompressedTexture2D::8204564138879013688::1791051380::1791826735::1::::<><><>0<>0<>e1080d947de3da9e841cc9ff410ab8c0<>res://.godot/imported/sprite1.png-4acab52bc1c83a49afa33dedc2ea8a0f.ctex::
+sprite3.png::CompressedTexture2D::6052245740088794444::1791051380::1791826735::1::::<><><>0<>0<>352191f52766ad3b6aa54bdb9573436b<>res://.godot/imported/sprite3.png-b5f5431d0a975414a5869137ff4446d9.ctex::
+tronco1.png::CompressedTexture2D::8683208698795364359::1791051380::1791826735::1::::<><><>0<>0<>e0e464a441b02b608a9c8a6a6c8a16d4<>res://.godot/imported/tronco1.png-68f5cf92423e3e23f32592157e36e4ad.ctex::
