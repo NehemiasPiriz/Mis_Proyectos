@@ -1,0 +1,71 @@
+[gd_scene format=3 uid="uid://crrpcq0o8vk2g"]
+
+[ext_resource type="PackedScene" uid="uid://dswxi12dw004e" path="res://Jefe Final/jefe_final.tscn" id="1_0e48y"]
+[ext_resource type="Texture2D" uid="uid://dccs5r5ojtrlm" path="res://icon.svg" id="2_epypp"]
+[ext_resource type="PackedScene" uid="uid://b4xtwo7ukrrwl" path="res://personaje/personaje.tscn" id="3_epypp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_d0u6y"]
+size = Vector2(127.05847, 120.00003)
+
+[node name="Node2D" type="Node2D" unique_id=1768234578]
+
+[node name="Jefe Final" parent="." unique_id=1852107011 instance=ExtResource("1_0e48y")]
+position = Vector2(47, -28)
+
+[node name="Piso" type="StaticBody2D" parent="." unique_id=1379390049]
+position = Vector2(63, 64)
+scale = Vector2(5.4777937, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="Piso" unique_id=1424789146]
+scale = Vector2(0.99999994, 0.99999994)
+texture = ExtResource("2_epypp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Piso" unique_id=275088788]
+position = Vector2(-0.18255234, -0.9999924)
+scale = Vector2(0.9999999, 0.99999976)
+shape = SubResource("RectangleShape2D_d0u6y")
+
+[node name="techo" type="StaticBody2D" parent="." unique_id=2072636468]
+position = Vector2(-1044, -220)
+rotation = -1.5670271
+scale = Vector2(5.4777937, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="techo" unique_id=1556712502]
+scale = Vector2(0.99999994, 0.99999994)
+texture = ExtResource("2_epypp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="techo" unique_id=262914375]
+position = Vector2(-0.18255234, -0.9999924)
+scale = Vector2(0.9999999, 0.99999976)
+shape = SubResource("RectangleShape2D_d0u6y")
+
+[node name="pared" type="StaticBody2D" parent="." unique_id=614887189]
+position = Vector2(466, -221.00002)
+rotation = 1.5743976
+scale = Vector2(5.4777937, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="pared" unique_id=1386899677]
+scale = Vector2(0.99999994, 0.99999994)
+texture = ExtResource("2_epypp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="pared" unique_id=6870051]
+position = Vector2(-0.18057767, 3.0035958)
+scale = Vector2(0.9999999, 0.99999976)
+shape = SubResource("RectangleShape2D_d0u6y")
+
+[node name="pared2" type="StaticBody2D" parent="." unique_id=1802589934]
+position = Vector2(-635, 62.99997)
+rotation = -0.0009098053
+scale = Vector2(5.4777937, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="pared2" unique_id=986526858]
+scale = Vector2(0.99999994, 0.99999994)
+texture = ExtResource("2_epypp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="pared2" unique_id=467551133]
+position = Vector2(-0.18255234, -0.9999924)
+scale = Vector2(0.9999999, 0.99999976)
+shape = SubResource("RectangleShape2D_d0u6y")
+
+[node name="personaje" parent="." unique_id=422163851 instance=ExtResource("3_epypp")]
+position = Vector2(-222, -30)
