@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://gyib73lsiq17"]
+
+[ext_resource type="PackedScene" uid="uid://d1euf2atmyfvi" path="res://ESCENAS/Mapa.tscn" id="1_grkw3"]
+[ext_resource type="PackedScene" uid="uid://dqpqfedr8gw5i" path="res://ESCENAS/PERSONAJE_PRINCIPAL.tscn" id="2_0kkof"]
+[ext_resource type="PackedScene" uid="uid://dswxi12dw004e" path="res://ESCENAS/ESCENA JEFE/jefe_final.tscn" id="3_0kkof"]
+[ext_resource type="PackedScene" uid="uid://b0u5j5ixcvu1s" path="res://ESCENAS/MINOTAURO.tscn" id="4_bqg5n"]
+[ext_resource type="PackedScene" uid="uid://bbrdeqbaf7vfc" path="res://ESCENAS/ESCENA ESQUELETO_GUARDIA/ESQUELETO_GUARDIA.tscn" id="5_mocl0"]
+
+[node name="Mapa" unique_id=780202172 instance=ExtResource("1_grkw3")]
+
+[node name="PERSONAJE_PRINCIPAL" parent="." index="4" unique_id=20507719 instance=ExtResource("2_0kkof")]
+position = Vector2(296, 344)
+
+[node name="Jefe Final" parent="." index="5" unique_id=1852107011 instance=ExtResource("3_0kkof")]
+position = Vector2(1014, 474)
+
+[node name="CharacterBody2D" parent="." index="6" unique_id=1549932518 instance=ExtResource("4_bqg5n")]
+position = Vector2(1025, 458)
+
+[node name="CharacterBody2D2" parent="." index="7" unique_id=1360536540 instance=ExtResource("5_mocl0")]
+position = Vector2(28, 501)
