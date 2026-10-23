@@ -1,0 +1,137 @@
+[gd_scene format=3 uid="uid://baylt7auwobm5"]
+
+[ext_resource type="Script" uid="uid://c6e4t6f3bt22" path="res://scriptS/opciones.gd" id="1_4n5yr"]
+[ext_resource type="Texture2D" uid="uid://dlviif1aa2aox" path="res://assetmenu/....jpg" id="2_chcw5"]
+[ext_resource type="Texture2D" uid="uid://b6dd7q6ksgri8" path="res://assetmenu/boton menu.png" id="3_l6ykc"]
+[ext_resource type="PackedScene" uid="uid://3mym2sicaujl" path="res://menuS/custom_button.tscn" id="3_os4os"]
+[ext_resource type="Texture2D" uid="uid://b2hy3gcaoavtw" path="res://assetmenu/502b0f93-11f6-4053-a050-3914d7d55012.png" id="4_chcw5"]
+[ext_resource type="Texture2D" uid="uid://b6fs1gos35h1" path="res://assetmenu/vol .png" id="5_aowak"]
+
+[sub_resource type="Theme" id="Theme_g4v7s"]
+MarginContainer/constants/margin_bottom = 10
+MarginContainer/constants/margin_left = 10
+MarginContainer/constants/margin_right = 10
+MarginContainer/constants/margin_top = 10
+
+[sub_resource type="FontVariation" id="FontVariation_4n5yr"]
+
+[sub_resource type="FontVariation" id="FontVariation_qmsgq"]
+base_font = SubResource("FontVariation_4n5yr")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qour2"]
+content_margin_left = 49.0
+texture = ExtResource("3_l6ykc")
+texture_margin_bottom = 30.0
+expand_margin_left = 22.0
+expand_margin_top = 89.0
+expand_margin_right = 40.0
+expand_margin_bottom = 129.0
+region_rect = Rect2(26, 5, 1536, 1024)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_g4v7s"]
+texture = ExtResource("5_aowak")
+texture_margin_bottom = 105.0
+expand_margin_left = 20.0
+expand_margin_top = 114.0
+expand_margin_right = 40.0
+expand_margin_bottom = 129.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_45upr"]
+texture = ExtResource("4_chcw5")
+expand_margin_left = 22.0
+expand_margin_top = 79.0
+expand_margin_right = 22.0
+expand_margin_bottom = 109.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_bwhrl"]
+texture = ExtResource("4_chcw5")
+texture_margin_bottom = 30.0
+expand_margin_left = 22.0
+expand_margin_top = 79.0
+expand_margin_right = 22.0
+expand_margin_bottom = 109.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_1xyts"]
+texture = ExtResource("4_chcw5")
+texture_margin_bottom = 30.0
+expand_margin_left = 22.0
+expand_margin_top = 79.0
+expand_margin_right = 22.0
+expand_margin_bottom = 109.0
+
+[node name="opciones" type="Control" unique_id=1358686300]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_g4v7s")
+script = ExtResource("1_4n5yr")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=348148268]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource("2_chcw5")
+expand_mode = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=932003617]
+light_mask = 31
+visibility_layer = 31
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -366.0
+offset_top = -281.0
+offset_right = 218.47034
+offset_bottom = 309.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.2797911, 0.97603965)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+metadata/_edit_group_ = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer" unique_id=1878660814]
+custom_minimum_size = Vector2(1, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+size_flags_stretch_ratio = 6.5
+theme_override_constants/separation = 114
+alignment = 1
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer" unique_id=441322515]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_fonts/font = SubResource("FontVariation_qmsgq")
+theme_override_font_sizes/font_size = 61
+theme_override_styles/normal = SubResource("StyleBoxTexture_qour2")
+text = "ㅤㅤㅤㅤ"
+horizontal_alignment = 1
+max_lines_visible = 1
+
+[node name="Musica" type="Label" parent="MarginContainer/VBoxContainer" unique_id=518574372]
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxTexture_g4v7s")
+
+[node name="Volver" parent="MarginContainer/VBoxContainer" unique_id=1333098034 instance=ExtResource("3_os4os")]
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxTexture_45upr")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_bwhrl")
+theme_override_styles/hover = SubResource("StyleBoxTexture_1xyts")
+text = "𝗩𝗼𝗹𝘃𝗲𝗿"
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Volver" to="." method="_on_salir_pressed"]

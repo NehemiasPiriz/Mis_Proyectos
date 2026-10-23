@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://3mym2sicaujl"]
+
+[ext_resource type="Script" uid="uid://tbm7k1m58mw0" path="res://menus/custom_button.gd" id="1_x1byf"]
+
+[node name="custom_button" type="Button" unique_id=544671273]
+offset_right = 8.0
+offset_bottom = 8.0
+text = "texto1"
+script = ExtResource("1_x1byf")
+
+[node name="click" type="AudioStreamPlayer" parent="." unique_id=1882094572]
+
+[node name="onhover" type="AudioStreamPlayer" parent="." unique_id=486911860]
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="pressed" from="." to="." method="_on_pressed"]

@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://csufioaupf6wr"]
+
+[ext_resource type="PackedScene" uid="uid://d1euf2atmyfvi" path="res://escenaS/Mapa.tscn" id="1_dgah0"]
+[ext_resource type="PackedScene" uid="uid://b8tw572dq3tto" path="res://escenaS/main_menú.tscn" id="2_8y4rp"]
+
+[node name="mapafondo" type="Node2D" unique_id=1086661723]
+
+[node name="Mapa" parent="." unique_id=780202172 instance=ExtResource("1_dgah0")]
+position = Vector2(-390, -21)
+
+[node name="CapaPausa" type="CanvasLayer" parent="." unique_id=639326373]
+
+[node name="menúPausa" parent="CapaPausa" unique_id=1358686300 instance=ExtResource("2_8y4rp")]
+process_mode = 2
+visible = false
+offset_left = 474.0
+offset_top = 350.0
+offset_right = 474.0
+offset_bottom = 350.0

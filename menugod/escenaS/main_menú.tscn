@@ -1,0 +1,185 @@
+[gd_scene format=3 uid="uid://b8tw572dq3tto"]
+
+[ext_resource type="Script" uid="uid://dcfxkr8dpd1ny" path="res://menuS/main_menú.gd" id="1_7faue"]
+[ext_resource type="PackedScene" uid="uid://3mym2sicaujl" path="res://menuS/custom_button.tscn" id="1_ncehd"]
+[ext_resource type="Texture2D" uid="uid://c65ym136ub48o" path="res://434e7950-25fc-4ded-a31a-0e01f1851c57.png" id="2_skxyc"]
+[ext_resource type="Texture2D" uid="uid://dhm5cpsbthio3" path="res://502b0f93-11f6-4053-a050-3914d7d55012.png" id="4_skxyc"]
+[ext_resource type="Texture2D" uid="uid://b2hy3gcaoavtw" path="res://assetmenu/502b0f93-11f6-4053-a050-3914d7d55012.png" id="5_45upr"]
+
+[sub_resource type="Theme" id="Theme_g4v7s"]
+MarginContainer/constants/margin_bottom = 10
+MarginContainer/constants/margin_left = 10
+MarginContainer/constants/margin_right = 10
+MarginContainer/constants/margin_top = 10
+
+[sub_resource type="FontVariation" id="FontVariation_47ipa"]
+
+[sub_resource type="FontVariation" id="FontVariation_qmsgq"]
+base_font = SubResource("FontVariation_47ipa")
+
+[sub_resource type="Theme" id="Theme_bfuhm"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_mbfic"]
+texture = ExtResource("4_skxyc")
+texture_margin_bottom = 30.0
+expand_margin_left = 22.0
+expand_margin_top = 76.0
+expand_margin_right = 22.0
+expand_margin_bottom = 109.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_erx48"]
+texture = ExtResource("5_45upr")
+expand_margin_left = 22.0
+expand_margin_top = 79.0
+expand_margin_right = 22.0
+expand_margin_bottom = 109.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4ktd8"]
+texture = ExtResource("5_45upr")
+expand_margin_left = 22.0
+expand_margin_top = 79.0
+expand_margin_right = 22.0
+expand_margin_bottom = 109.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_45upr"]
+texture = ExtResource("4_skxyc")
+texture_margin_bottom = 30.0
+expand_margin_left = 22.0
+expand_margin_top = 76.0
+expand_margin_right = 22.0
+expand_margin_bottom = 108.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_uqe4o"]
+texture = ExtResource("5_45upr")
+expand_margin_left = 22.0
+expand_margin_top = 79.0
+expand_margin_right = 22.0
+expand_margin_bottom = 109.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_v4mpr"]
+texture = ExtResource("5_45upr")
+expand_margin_left = 22.0
+expand_margin_top = 79.0
+expand_margin_right = 22.0
+expand_margin_bottom = 109.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_skxyc"]
+texture = ExtResource("4_skxyc")
+texture_margin_bottom = 30.0
+expand_margin_left = 22.0
+expand_margin_top = 76.0
+expand_margin_right = 22.0
+expand_margin_bottom = 109.0
+axis_stretch_horizontal = 2
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7qfgm"]
+texture = ExtResource("5_45upr")
+expand_margin_left = 22.0
+expand_margin_top = 79.0
+expand_margin_right = 22.0
+expand_margin_bottom = 109.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_bwhrl"]
+texture = ExtResource("5_45upr")
+expand_margin_left = 22.0
+expand_margin_top = 79.0
+expand_margin_right = 22.0
+expand_margin_bottom = 109.0
+
+[node name="main menú" type="Control" unique_id=1358686300]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_g4v7s")
+script = ExtResource("1_7faue")
+metadata/_edit_horizontal_guides_ = [53.0]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=348148268]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -571.0
+offset_top = -328.0
+offset_right = 580.0
+offset_bottom = 325.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_skxyc")
+expand_mode = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=932003617]
+light_mask = 31
+visibility_layer = 31
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.58500004
+anchor_right = 0.5
+anchor_bottom = 0.58500004
+offset_left = -138.0
+offset_top = -197.08002
+offset_right = 70.0
+offset_bottom = 269.91998
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.2797911, 0.97603965)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer" unique_id=1878660814]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/separation = 38
+alignment = 1
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer" unique_id=441322515]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_fonts/font = SubResource("FontVariation_qmsgq")
+theme_override_font_sizes/font_size = 39
+horizontal_alignment = 1
+
+[node name="Comenzar" parent="MarginContainer/VBoxContainer" unique_id=544671273 instance=ExtResource("1_ncehd")]
+layout_mode = 2
+size_flags_vertical = 4
+theme = SubResource("Theme_bfuhm")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(0.8095929, 0.9958417, 0.956736, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.65882355, 1, 1, 1)
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxTexture_mbfic")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_erx48")
+theme_override_styles/hover = SubResource("StyleBoxTexture_4ktd8")
+text = "𝗝𝘂𝗴𝗮𝗿"
+text_overrun_behavior = 1
+icon_alignment = 1
+
+[node name="Salir" parent="MarginContainer/VBoxContainer" unique_id=1333098034 instance=ExtResource("1_ncehd")]
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxTexture_45upr")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_uqe4o")
+theme_override_styles/hover = SubResource("StyleBoxTexture_v4mpr")
+text = "𝗦𝗮𝗹𝗶𝗿"
+
+[node name="opciones" parent="MarginContainer/VBoxContainer" unique_id=1371640632 instance=ExtResource("1_ncehd")]
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxTexture_skxyc")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_7qfgm")
+theme_override_styles/hover = SubResource("StyleBoxTexture_bwhrl")
+text = "𝗢𝗽𝗰𝗶𝗼𝗻𝗲𝘀
+"
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Comenzar" to="." method="_on_comenzar_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Salir" to="." method="_on_salir_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/opciones" to="." method="_on_opciones_pressed"]
