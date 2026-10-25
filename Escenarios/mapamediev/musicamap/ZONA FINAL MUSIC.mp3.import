@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bv306yh6nnnmx"
+path="res://.godot/imported/ZONA FINAL MUSIC.mp3-92b69e6b71987fbb66bb22c2fda474fd.mp3str"
+
+[deps]
+
+source_file="res://musicamap/ZONA FINAL MUSIC.mp3"
+dest_files=["res://.godot/imported/ZONA FINAL MUSIC.mp3-92b69e6b71987fbb66bb22c2fda474fd.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
