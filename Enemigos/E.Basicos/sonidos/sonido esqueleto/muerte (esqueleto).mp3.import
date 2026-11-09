@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ytlc3nfmtnbv"
+path="res://.godot/imported/muerte (esqueleto).mp3-8fc4d78e9a3d57e9e08e4d5bcb2464b0.mp3str"
+
+[deps]
+
+source_file="res://sonidos/sonido esqueleto/muerte (esqueleto).mp3"
+dest_files=["res://.godot/imported/muerte (esqueleto).mp3-8fc4d78e9a3d57e9e08e4d5bcb2464b0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

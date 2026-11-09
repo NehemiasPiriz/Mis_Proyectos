@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://drb1yr75xuwb0"
+path="res://.godot/imported/gruñido ataque.mp3-d168f9a84fcb0a4ee10ade65014d5284.mp3str"
+
+[deps]
+
+source_file="res://sonidos/sonido personaje principal/gruñido ataque.mp3"
+dest_files=["res://.godot/imported/gruñido ataque.mp3-d168f9a84fcb0a4ee10ade65014d5284.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://corvt0ayno65y"
+path="res://.godot/imported/Audio_Pasos.mp3-50d6148d48d7f5c7042ce02572ecac30.mp3str"
+
+[deps]
+
+source_file="res://sonidos/sonido personaje principal/Audio_Pasos.mp3"
+dest_files=["res://.godot/imported/Audio_Pasos.mp3-50d6148d48d7f5c7042ce02572ecac30.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

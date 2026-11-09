@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://3nog6nwqdoxf"
+path="res://.godot/imported/ataque espada fium.mp3-a8ff2dd851b6728ad6790206157470ed.mp3str"
+
+[deps]
+
+source_file="res://sonidos/sonido personaje principal/ataque espada fium.mp3"
+dest_files=["res://.godot/imported/ataque espada fium.mp3-a8ff2dd851b6728ad6790206157470ed.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

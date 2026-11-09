@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://wcvxtca8gjur"
+path="res://.godot/imported/audio salto pj princ.mp3-3945f9b4998d09fd23df54709c144b66.mp3str"
+
+[deps]
+
+source_file="res://sonidos/sonido personaje principal/audio salto pj princ.mp3"
+dest_files=["res://.godot/imported/audio salto pj princ.mp3-3945f9b4998d09fd23df54709c144b66.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

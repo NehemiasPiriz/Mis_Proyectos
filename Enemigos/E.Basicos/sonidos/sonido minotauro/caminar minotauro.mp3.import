@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b83d4aihh4iso"
+path="res://.godot/imported/caminar minotauro.mp3-5f8e6b815e81e64a043b8ff27c1b1ee6.mp3str"
+
+[deps]
+
+source_file="res://sonidos/sonido minotauro/caminar minotauro.mp3"
+dest_files=["res://.godot/imported/caminar minotauro.mp3-5f8e6b815e81e64a043b8ff27c1b1ee6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

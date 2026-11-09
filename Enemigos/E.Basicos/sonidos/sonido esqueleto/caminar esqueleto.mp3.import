@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dhkdocvmjx7v4"
+path="res://.godot/imported/caminar esqueleto.mp3-5e9acc8ae4bab9db74bb523edffcff67.mp3str"
+
+[deps]
+
+source_file="res://sonidos/sonido esqueleto/caminar esqueleto.mp3"
+dest_files=["res://.godot/imported/caminar esqueleto.mp3-5e9acc8ae4bab9db74bb523edffcff67.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

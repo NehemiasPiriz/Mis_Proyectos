@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://drhk42co2shji"
+path="res://.godot/imported/dolor minotauro.mp3-836c278dd0e2b01537ddb4e0ff4fac67.mp3str"
+
+[deps]
+
+source_file="res://sonidos/sonido minotauro/dolor minotauro.mp3"
+dest_files=["res://.godot/imported/dolor minotauro.mp3-836c278dd0e2b01537ddb4e0ff4fac67.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

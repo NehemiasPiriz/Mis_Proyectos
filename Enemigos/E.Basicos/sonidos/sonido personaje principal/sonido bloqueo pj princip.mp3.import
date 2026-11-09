@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c4fhxaw285t1q"
+path="res://.godot/imported/sonido bloqueo pj princip.mp3-b04e691432d2ba1f935cce51fd7033df.mp3str"
+
+[deps]
+
+source_file="res://sonidos/sonido personaje principal/sonido bloqueo pj princip.mp3"
+dest_files=["res://.godot/imported/sonido bloqueo pj princip.mp3-b04e691432d2ba1f935cce51fd7033df.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
